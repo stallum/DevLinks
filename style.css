@@ -95,15 +95,22 @@ body * {
 
   border: 1px solid var(--stroke-color);
   background: var(--surface-color);
-  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
 
 /* dev links */
 
 /* media queries */ 
-
+@media (min-width: 700px){
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
 
 /* animação */
 @keyframes slide-in{
