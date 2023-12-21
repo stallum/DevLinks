@@ -156,6 +156,16 @@ ul li a:hover {
   background-color: var(--highlight-color);
 }
 
+/* footer */
+footer {
+  display: flex;
+  padding: 24px 0;
+  justify-content: center;
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 24px;
+}
+
 /* media queries */ 
 @media (min-width: 700px){
   :root {
